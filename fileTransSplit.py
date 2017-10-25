@@ -6,7 +6,7 @@ import os
 
 infile = sys.argv[1]
 
-unisfile = open(infile)
+thefile = open(infile)
 
 csvReader = csv.reader(thefile, delimiter='$')
 header = next(csvReader)
